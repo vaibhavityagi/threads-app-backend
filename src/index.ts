@@ -34,5 +34,5 @@ async function init() {
   app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 }
 
-init();
 // a global level async fn is created so that await call to the gqlServer can be made
+init();
