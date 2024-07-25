@@ -31,8 +31,7 @@ class UserService {
         profileImageUrl: profileImageUrl || null,
       },
     });
-    console.log(res);
-    return "success";
+    return String(res.id);
   }
 }
 

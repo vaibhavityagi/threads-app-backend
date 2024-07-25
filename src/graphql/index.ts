@@ -9,7 +9,7 @@ export default async function createApolloServer() {
         type Query {
             ${User.queries}
         }
-        type Mutations {
+        type Mutation {
             ${User.mutations}
         }
     `,

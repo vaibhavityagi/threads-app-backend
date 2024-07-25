@@ -20,8 +20,7 @@ const queries = {
 };
 const mutations = {
   newUser: async (_: any, parameters: newUserInterface) => {
-    console.log(parameters);
-    await UserService.newUser({ ...parameters });
+    return await UserService.newUser({ ...parameters });
   },
 };
 
